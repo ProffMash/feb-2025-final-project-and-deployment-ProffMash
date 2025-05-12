@@ -1,0 +1,201 @@
+<!DOCTYPE html><i class='bx bxs-shopping-bag'></i> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edd Mobi-contacts</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="header">
+        <a href="" class="logo"><img src="logo.jpeg" alt="" srcset=""></a>
+        <nav class="navbar">
+          <a href="index.html">Home</a>
+          <a href="about.html">about us</a>
+          <a href="products.html">Products</a>
+          <a href="blog.html">blog</a>
+          <a href="contact.html">contacts</a>
+        </nav>
+        
+        <div class="icons">
+          <div class='bx bx-menu' id="menu-btn"></div>
+          <div class='bx bx-search' id="search-btn"></div>
+          <div class='bx bx-cart' id="cart-btn"></div>
+        </div>
+    
+        <form action="" class="search-form">
+          <input type="search" placeholder="Search here.." id="search-box">
+          <label for="search-box" class='bx bx-search'></label>
+        </form>
+    
+        <div class="shopping-cart">
+          <div class="box">
+            <i class='bx bxs-trash'></i>
+            <img src="p.jpeg" alt="" srcset="">
+            <div class="content">
+              <h3>laptop</h3>
+              <span class="price">$255.00</span>
+              <span class="quantity">qty : 1</span>
+            </div>
+          </div>
+          <div class="box">
+            <i class='bx bxs-trash'></i>
+            <img src="hd.jpeg" alt="" srcset="">
+            <div class="content">
+              <h3>hard disk</h3>
+              <span class="price">$25.99</span>
+              <span class="quantity">qty : 1</span>
+            </div>
+          </div>
+          <div class="total">total : $380.99</div>
+          <a href="#" class="btn">Check out</a>
+        </div>
+      </header>
+
+  <!--home section-->
+  <section class="home" id="home">
+    <div class="content">
+      <h3>great and <span>quality</span> products for you</h3>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepecidunt sed sunt,
+         dolores similique quos ex iusto voluptatibus temporibus voluptatum excep
+      </p>
+      <a href="#" class="btn">see now</a>
+    </div>
+  </section>
+
+
+  <!--contacts section-->
+  <section class="contact-card" id="contact">
+    <div class="contacts-contaniner">
+        <div class="message-box">
+          <h1>place your oder</h1>
+          <form action="https://formspree.io/f/mwkgzdwp" method="POST" id="order-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+        
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required>
+        
+            <label for="product">Product:</label>
+            <select id="product" id="product" name="product" required>
+              <option value="">Select a product</option>
+              <option value="laptop">Laptop</option>
+              <option value="smartphone">Smartphone</option>
+              <option value="tablet">Tablet</option>
+            </select>
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" name="quantity" min="1" required> 
+            <label for="additional-orders">Additional/Special Orders:</label>
+             <textarea id="additional-orders" name="additional-orders"></textarea>
+            <button type="submit" class="btn">Place Order</button>
+          </form>
+        
+        </div>
+        <div class="contact-det">
+          <div class="contact-container">
+            <div class="contact-box">
+                <div class="icon">
+                    <i class='bx bxs-phone-call'></i>
+                </div>
+                <div class="icon-det">
+                    <h1>Call:</h1>
+                    <h2>+245799290741</h2>
+                </div>
+            </div>
+            <div class="contact-box">
+                <div class="icon">
+                    <i class='bx bxs-envelope'></i>
+                </div>
+                <div class="icon-det">
+                    <h1>Email us:</h1>
+                    <h2>123etech@gmail.com</h2>
+                </div>
+            </div>
+            <div class="contact-box">
+                <div class="icon">
+                    <i class='bx bxs-location-plus'></i>
+                </div>
+                <div class="icon-det">
+                   <h1>Visit us:</h1>
+                    <h2>Opposite Co-operative Bank, Kajiado, Kenya - 01100</h2>
+                </div>
+            </div>
+          </div> 
+          
+          <h4 style="text-align: center; font-size: 2.5rem; color: orange; text-decoration: underline;">Get directions</h4>
+          <div class="map">
+            <div class="map-container">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.757392954361!2d36.787867999055315!3d-1.8416670235513202!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182fc553bada5e6f%3A0x57d7160231d1523f!2sCooperative%20Bank!5e0!3m2!1sen!2ske!4v1716036108351!5m2!1sen!2ske" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+        </div>
+    </div>
+  </section>
+  <!--footer section-->
+  <section class="footer">
+    <div class="box-container">
+      <div class="box">
+        <h3>E-Tech <i class='bx bxs-component'></i> </h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo nulla fugit molestias</p>
+        <div class="share">
+          <a href="" class='bx bxl-facebook-circle'> </a>
+          <a href="" class='bx bxl-instagram-alt'></a>
+          <a href="" class='bx bxl-twitter'></a>
+          <a href="" class='bx bxl-linkedin'></a>
+        </div>
+      </div>
+
+      <div class="box">
+        <h3>Contact info</h3>
+        <a href="" class="links"><i class='bx bx-phone'></i> +254746017116</a>
+        <a href="" class="links"><i class='bx bx-phone'></i> +245799290741</a>
+        <a href="" class="links"><i class='bx bxs-envelope'></i> 123etech@gmail.com</a>
+        <a href="" class="links"><i class='bx bxs-location-plus'></i> Kajiado, Kenya - 01100</a>
+      </div>
+
+      <div class="box">
+        <h3>Quick links</h3>
+        <a href="index.html" class="links"><i class='bx bx-right-arrow-alt'></i> home</a>
+        <a href="about.html" class="links"><i class='bx bx-right-arrow-alt'></i> about us</a>
+        <a href="products.html" class="links"><i class='bx bx-right-arrow-alt'></i> products</a>
+        <a href="blog.html" class="links"><i class='bx bx-right-arrow-alt'></i> blog</a>
+        <a href="contact.html" class="links"><i class='bx bx-right-arrow-alt'></i> contacts</a>
+      </div>
+
+      <div class="box">
+        <h3>newsletter</h3>
+        <p>subscribe for latest updates</p>
+        <input type="email" placeholder="your email" id="email" class="email">
+        <input type="submit" value="subscribe" class="btn">
+      </div>
+    </div>
+
+    <div class="credit"><span>Edd Mobi &copy copyright 2024</span> | &copy; all rights reserved </div>
+  </section>
+
+  <script src="main.js"></script>
+  <!--   *****   JQuery Link   *****   -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+      var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 1,
+      spaceBetween: 30,
+      pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+      },
+      //when the window is >= 600px
+      breakpoints: {
+          600: {
+              slidesPerView: 2
+          }
+      }
+      });
+  </script>
+</body>
+</html>
